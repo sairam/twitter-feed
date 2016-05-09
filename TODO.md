@@ -1,6 +1,6 @@
 ### TODO
 - [ ] Generate an Elixir Project using `mix`
-- [ ] Link Dependencies in `mix`
+- [ ] Link Dependencies using `mix`
 - [ ] Given a (link, text), method should output XML in atom format
 - [ ] When a list is provided, it should output the complete XML in atom format
 - [ ] Define Tweet Entity
@@ -20,3 +20,8 @@
 ### Future Plans
 - [ ] Redirect links through the server (to track opens per user). [http://www.reganmian.net/blog/2015/09/03/sending-and-receiving-email-with-elixir/](See Example)
 - [ ] Provide Analytics based on email opens and links clicked per user
+
+### API Info
+- Twitter Lists API - https://dev.twitter.com/rest/reference/get/lists/statuses
+- Max Page size is 800 for lists - https://dev.twitter.com/overview/general/things-every-developer-should-know
+- 3200 for user timeline
